@@ -1,0 +1,118 @@
+#nav{
+    width: 100%;
+    position: fixed;
+    background-color:rgb(230, 246, 255); 
+    top: 0;
+    z-index: 2;
+    opacity: 0.9;
+}
+.nav-item{
+    margin-left:15px;
+    text-align: center;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+    background-color: #b9e0ff;
+    border-radius: 45%;
+}
+.background-img1 img{
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.background-img2 img{
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.card{
+    margin-right: 50px;
+}
+.card-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon{
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 90px;
+    cursor: pointer;
+    background-color:rgb(0, 0, 0);
+    color: #0075fa;
+
+}
+.icon:hover{
+    color: #95c5fc;
+}
+.card:hover{
+    color: #000000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.follow{
+    color: rgb(0, 180, 0);
+}
+.follow:hover{
+    color: rgb(146, 150, 146);
+}
+.watch{
+    color: rgb(114, 55, 0);
+}
+.watch:hover{
+    color: rgb(179, 86, 0);
+}
+.scale{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.scale:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.img1{
+
+    background-image: url(../images/4183235-2e3bfo.jpg);
+}
+.img2{
+    background-image: url(../images/ديكور13.webp);
+}
+.img3{
+    background-image: url(../images/1668716659_صور-ديكور-شقق-2023-ديكورات-شقق-للعرائس.jpg);
+}
+.box-shadow2{
+    box-shadow: 10px 10px 35px 5px  rgb(44, 142, 187);
+}
+.box-shadow{
+    box-shadow: 10px 10px 35px 5px  rgb(0, 0, 0); 
+    
+}
+
+.opacity:hover{
+    color: rgb(53, 123, 255);
+    transform: scale(1.1);
+    cursor:rgb(0, 62, 179)
+}
+.green:hover{
+    transition: 0.2s;
+    color: rgb(0, 0, 0);
+
+}
+
+.hover-overlay img:hover{
+cursor: pointer;
+opacity: 0.7;
+
+transform: scale(1.3);
+border-radius: 25%;
+
+}

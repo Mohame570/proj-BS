@@ -1,0 +1,808 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/all.css">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>Project Bootstrap</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="nav" class="navbar navbar-expand-lg  ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#" style="text-align: center; margin-right: 50px;margin-left: 20px; font-weight: 700;">Eng MOHAMED SAMER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="font-weight: 700;">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Features
+                </a>
+                <ul class="dropdown-menu" style="background-color:rgb(109, 109, 109); ">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Mix</a></li>
+                  <li><a class="dropdown-item" href="#">Favorites</a></li>
+                  <li><a class="dropdown-item" href="#">Follow-ups</a></li>
+                  <li><a class="dropdown-item" href="#">Subscriptions</a></li>
+                  <li><a class="dropdown-item" href="#">technical support</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"> About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Support</a>
+              </li>
+            </ul>
+            <form class="d-flex " role="search">
+              <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search " style="border: solid 1px rgb(150, 150, 150); background-color: rgb(235, 247, 255);  ">
+              <button class="btn btn-outline-success " type="submit">Search</button>
+              
+    <button  class="btn btn-outline-success " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" fdprocessedid="hoh07" >Login</button>
+
+      </nav>
+       <!-- Modal -->
+        
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-success">
+            <h1 class="modal-title fs-5 text-light" id="exampleModalLabel">Login</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <form>
+          <!-- Email input -->
+          <div class="form-outline mb-4 text-success">
+            <label class="form-label" for="form2Example1">Email address</label>
+            <input type="email" id="form2Example1" class="form-control" />
+          </div>
+        
+          <!-- Password input -->
+          <div class="form-outline mb-4 text-success">
+            <label class="form-label" for="form2Example2">Password</label>
+            <input type="password" id="form2Example2" class="form-control" />
+            
+          </div>
+        
+          <!-- 2 column grid layout for inline styling -->
+          <div class="row mb-4">
+            <div class="col d-flex justify-content-center">
+              <!-- Checkbox -->
+<!-- Checked switch -->
+<div class="form-check form-switch ">
+  <input class="form-check-input bg-success" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+  <label class="form-check-label text-success" for="flexSwitchCheckChecked">Remember Me </label>
+</div>
+
+            </div>
+        
+            <div class="col">
+              <!-- Simple link -->
+              <a href="#!" class="text-success">Forgot password?</a>
+            </div>
+          </div>
+        
+
+          <!-- Register buttons -->
+          <div class="text-center text-success">
+
+            <p>OR Sign Up With:</p>
+            
+            <button type="button" class="btn btn-outline-success btn-floating mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+        
+            <button type="button" class="btn btn-outline-success btn-floating mx-1">
+              <i class="fab fa-google"></i>
+            </button>
+        
+            <button type="button" class="btn btn-outline-success btn-floating mx-1">
+              <i class="fab fa-twitter"></i>
+            </button>
+        
+            <button type="button" class="btn btn-outline-success btn-floating mx-1">
+              <i class="fab fa-github"></i>
+            </button>
+          </div>
+        </form>
+          </div>
+          <div class="modal-footer" style= "margin: auto; ">
+            <button type="button" class="btn btn-outline-success"style= "margin-right:  50px; " >    Login    </button>
+            <button type="button" class=" btn btn-outline-success" data-bs-dismiss="modal" >    Close    </button>
+          </div>
+        </div>
+      </div>
+    </div>
+            
+      <!-- carousel -->
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/3991.jpg" class="d-block w-100" style="height: 100vh;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/6fc16e9c5beb6eacb1de2ebeda78c491.webp" class="d-block w-100 " style="height: 100vh;" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/WhatsApp-Image-2022-07-13-at-6.42.08-PM.jpeg" class="d-block w-100 " style="height: 100vh;" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="container-fluid  p-5" style="background-color: rgb(230, 246, 255);">
+            <h2 style="font-size: 40px;">Welcome</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas impedit quisquam dolore voluptatum at repudiandae distinctio inventore ipsum harum et nobis consequuntur eos adipisci, tempora dignissimos eligendi deserunt! Saepe, cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde ut quisquam est fugiat odio aperiam sequi facere libero quis provident illo tenetur atque iure quia, iste similique accusamus molestiae ea?</p>
+            <button type="button" class="btn btn-outline-success" >Primary button</button>
+          </div><hr>
+<div class="text-center p-4" style="background-color: rgb(179, 154, 154);">
+    <h2>Popular destinations in Egypt</h2>
+</div><br>
+
+<!-- /accordion -->
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item"  style="background-color: rgb(208, 212, 214);">
+      <h2 class="accordion-header" >
+        <button style="font-weight: 700;" class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Chairs
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      </div>
+    </div>
+    <div class="accordion-item"  style="background-color: rgb(208, 212, 214)">
+      <h2 class="accordion-header">
+        <button style="font-weight: 700;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+Sofas
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+      </div>
+    </div>
+    <div class="accordion-item "  style="background-color: rgb(208, 212, 214);">
+      <h2 class="accordion-header">
+        <button style="font-weight: 700;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Tables
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- translate -->
+<div class="translate">
+    <div>
+        <div class="text-center p-4" style="background-color: rgb(179, 154, 154);">
+            <h2>Translate Form Arabic To English</h2>
+        
+        
+        
+        
+            
+        </div>
+        <div class="p-5 "  style="background-color: rgb(160, 162, 163);">
+        <h4>What and Translate <span class="opacity" style="font-size: xx-large;">Press Here</span></h4><br>
+        
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModall">
+            Copy
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade " id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+            <div class="modal-dialog">
+              <div class="modal-content bg-dark">
+                <div class="modal-body text-light">
+The text was copied successfully                </div>
+                <div class="modal-body ">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Translate"></textarea>
+          <br><br><br><br>
+        </div>
+        <hr>
+    
+    
+    </div>
+    <div>
+        <div class="text-center p-4" style="background-color: rgb(179, 154, 154);">
+            <h2>Translate Form Arabic To Frensh</h2>
+
+        </div>
+        <div class="p-5 "  style="background-color: rgb(160, 162, 163);">
+        <h4 >What and Translate <span class="opacity" style="font-size: xx-large;">Press Here</span></h4><br>
+        
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModall">
+            Copy
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade " id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+            <div class="modal-dialog">
+              <div class="modal-content bg-dark">
+                <div class="modal-body text-light">
+The text was copied successfully
+                </div>
+                <div class="modal-body ">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Translate"></textarea>
+          <br><br><br><br>
+        </div>
+        <hr>
+    
+    
+    </div>
+    <div>
+        <div class="text-center p-4" style="background-color: rgb(179, 154, 154);">
+            <h2>Translate Form Arabic To German</h2>
+        
+        
+        
+        
+            
+        </div>
+        <div class="p-5 "  style="background-color: rgb(160, 162, 163);">
+        <h4>What and Translate <span class="opacity" style="font-size: xx-large;">Press Here</span></h4><br>
+        
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModall">
+            Copy
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade " id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+            <div class="modal-dialog">
+              <div class="modal-content bg-dark">
+                <div class="modal-body text-light">
+The text was copied successfully
+                </div>
+                <div class="modal-body ">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Translate"></textarea>
+          <br><br><br><br>
+        </div>
+
+    </div>
+</div>
+
+<div class="background-img1" alt="...">
+  <img src="./images/030c0dc4-2407-410d-95f6-a82390801fb7.jpg" alt="" srcset="">
+</div>
+
+<div class="text-center p-4" style="background-color: rgb(179, 154, 154);">
+  <h2>Popular destinations in Egypt</h2>
+</div>
+<br><br><br><br>
+<div class="container" >
+
+  <div class=" row" >
+    <div class="card col-lg-4 col-sm-12 box-shadow2 " style="height: 500px; width: 23rem; margin: 10px 20px; background-color: rgb(248, 251, 253);">
+      <img src="./images/أحدث-ديكورات-غرف-النوم.webp" class="card-img-top" alt="..." style="height: 500px;">
+      <div class="card-body">
+        <h5 class="card-title">Bedrooms</h5>
+        <p class="card-text">Some quick examples that can be relied upon in designs for the shapes of room contents.</p>
+        <a href="#" class="btn btn-outline-success"  style="float: right;">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-sm-12 box-shadow2 " style="height: 500px; width: 20rem; margin: 10px 20px; background-color: rgb(248, 251, 253);">
+      <img src="./images/y-alcati-pink-4.jpg" class="card-img-top" alt="..." style="height: 400px;">
+      <div class="card-body">
+        <h5 class="card-title">Children's room</h5>
+        <p class="card-text">Some quick examples that can be relied upon in designs for the shapes of room contents.</p>
+        <a href="#" class="btn btn-outline-success"  style="float: right;">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-sm-12 box-shadow2 " style="height: 500px; width: 20rem; margin: 10px 20px; background-color: rgb(248, 251, 253);">
+      <img src="./images/download.jpeg" class="card-img-top" alt="..." style="height: 400px;">
+      <div class="card-body">
+        <h5 class="card-title">Room hairdresser</h5>
+        <p class="card-text">Some quick examples that can be relied upon in designs for the shapes of room contents.</p>
+        <a href="#" class="btn btn-outline-success"  style="float: right;">Go somewhere</a>
+      </div>
+      </div>
+    
+    </div>
+     
+    <br><br>
+    <div class=" row" >
+      <div class="card col-lg-4 col-sm-12 box-shadow2 " style="height: 500px; width: 23rem;margin: 10px 20px; background-color:  rgb(248, 251, 253);">
+        <img src="./images/480551696080411.yX4MpVErwyUXSjtkx2uS7o9mtsgso2wibO4q4h2M.jpg" class="card-img-top" alt="..." style="height: 500px;">
+        <div class="card-body">
+          <h5 class="card-title">Dining rooms</h5>
+          <p class="card-text">Some quick examples that can be relied upon in designs for the shapes of room contents.</p>
+          <a href="#" class="btn btn-outline-success" style="float: right;">Go somewhere</a>
+         </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12 box-shadow2" style="height: 500px; width: 23rem;margin: 10px 20px; background-color:  rgb(248, 251, 253);">
+        <img src="./images/modern-scandinavian-living-room-1656390524.jpg" class="card-img-top" alt="..." style="height: 500px;">
+        <div class="card-body">
+          <h5 class="card-title">Living Rooms</h5>
+          <p class="card-text">Some quick examples that can be relied upon in designs for the shapes of room contents.</p>
+          <a href="#" class="btn btn-outline-success"  style="float: right;">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12 box-shadow2" style="height: 500px; width: 21rem; margin: 0px 20px; background-color:  rgb(248, 251, 253);">
+        <img src="./images/buffet-02.jpg" class="card-img-top" alt="..." style="height: 450px;">
+        <div class="card-body">
+          <h5 class="card-title">Cutlery cabinet</h5>
+          <p class="card-text">Some quick examples that can be relied upon in designs for the shapes of room contents.</p>
+          <a href="#" class="btn btn-outline-success"  style="float: right;">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    
+    <br>
+    <div class=" row">
+      <div class="card col-lg-6 col-sm-12 box-shadow2" style="height: 500px; width: 21rem; margin: 20px auto;  background-color: rgb(248, 251, 253);">
+        <img src="./images/wooden-veneer-melamine-kitchen-cabinets47441273292.webp" class="card-img-top" alt="..." style="height: 470px;">
+        <div class="card-body">
+          <h5 class="card-title">Kitchens designs</h5>
+          <p class="card-text">Some quick examples that can be relied upon in designs for the shapes of room contents.</p>
+          <a href="#" class="btn btn-outline-success"  style="float: right;">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12 box-shadow2" style="height: 500px; width: 23rem;margin: auto ; background-color: rgb(248, 251, 253); ">
+        <img src="./images/bathroom-design.jpg" class="card-img-top" alt="..." style="height: 500px;">
+        <div class="card-body">
+          <h5 class="card-title">bathrooms designs</h5>
+          <p class="card-text">Some quick examples that can be relied upon in designs for the shapes of room contents.</p>
+          <a href="#" class="btn btn-outline-success"  style="float: right;">Go somewhere</a>
+        </div>
+      </div></div>
+</div><br>
+
+  <div class="background-img2" alt="...">
+    <img src="./images/ديكورات-أسقف-جبس.jpg" alt="" srcset="">
+  </div>
+
+  <div class="text-center p-4" style="background-color: rgb(179, 154, 154);">
+    <h2>Popular destinations in Egypt</h2>
+  </div>
+  <br><br><br><br>
+  <div class="container card-group " >
+
+    <div class="card scale img1 box-shadow" style="border-radius:20px ; margin:20px 50px;height: 500px; background-color: rgb(245, 245, 245);">
+  
+      <div class="card-body">
+      </div>
+      <div class="card-footer">
+        <img src="./images/4183235-2e3bfo.jpg" class="card-img-top " style="border-radius: 50%; width: 100px;" alt="...">
+        <h5 class="card-title text-light">Furniture</h5>
+      </div>
+    </div>
+    <div class="card scale img2 box-shadow" style="border-radius:20px ; margin:20px 50px;height: 500px; background-color: rgb(245, 245, 245);">
+  
+      <div class="card-body">
+      </div>
+      <div class="card-footer">
+        <img src="./images/ديكور13.webp" class="card-img-top " style="border-radius: 50%; width: 100px;" alt="...">
+        <h5 class="card-title text-light ">Furniture</h5>
+      </div>
+    </div>
+    <div class="card scale img3 box-shadow" style="border-radius:20px ; margin:20px 50px;height: 500px; background-color: rgb(245, 245, 245);">
+  
+      <div class="card-body">
+      </div>
+      <div class="card-footer">
+        <img src="./images/1668716659_صور-ديكور-شقق-2023-ديكورات-شقق-للعرائس.jpg" class="card-img-top " style="border-radius: 50%; width: 100px;" alt="...">
+        <h5 class="card-title text-light">Furniture</h5>
+      </div>
+    </div>
+  </div><br><hr>
+  <div class="text-center p-4" style="background-color: rgb(179, 154, 154);">
+    <h2>Popular destinations in Egypt</h2>
+  </div>  <br><br>
+  <div class="container- card mb-3 box-shadow" style="max-width: 950px; margin: auto; background-color:rgb(148, 118, 118); ">
+    <div class="row g-0">
+      
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Furniture title</h2>
+          <i class="fa-solid fa-calendar-days" > mon , may 25th 2023</i>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><strong class="text-body-secondary">Last updated 3 mins ago</strong></p></p><br><br>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-podcast"> Podcast</i></button>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-clock"> 36 min</i></button>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-play green"> Play Now</i></button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="./images/HvV2Ivc0LRk.jpg" class="img-fluid rounded-start" style="width: 479px; height: 300px;" alt="...">
+      </div>
+    </div>
+  </div>  <br><br>
+  </div>  <br><br>
+  <div class="container- card mb-3 box-shadow" style="max-width: 950px; margin: auto; background-color: rgb(148, 118, 118); ">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="./images/ديكور-شقق.jpg" class="img-fluid rounded-start" style="width: 479px; height: 300px;" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Furniture title</h2>
+          <i class="fa-solid fa-calendar-days" > mon , may 25th 2023</i>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><strong class="text-body-secondary">Last updated 3 mins ago</strong></p></p><br><br>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-podcast"> Podcast</i></button>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-clock"> 36 min</i></button>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-play green"> Play Now</i></button>
+        </div>
+      </div>
+    </div>
+  </div>  <br><br>
+  </div>  <br><br>
+  <div class="container- card mb-3 box-shadow" style="max-width: 950px; margin: auto; background-color:rgb(148, 118, 118); ">
+    <div class="row g-0">
+      
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Furniture title</h2>
+          <i class="fa-solid fa-calendar-days" > mon , may 25th 2023</i>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><strong class="text-body-secondary">Last updated 3 mins ago</strong></p></p><br><br>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-podcast"> Podcast</i></button>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-clock"> 36 min</i></button>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-play green"> Play Now</i></button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="./images/ديكور-شقق-صغيرة-2-scaled.jpg" class="img-fluid rounded-start" style="width: 479px; height: 300px;" alt="...">
+      </div>
+    </div>
+  </div>  <br><br>
+  </div>  <br><br>
+  <div class="container- card mb-3 box-shadow" style="max-width: 950px; margin: auto; background-color:rgb(148, 118, 118); ">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="./images/77453-ديكورات-ابيض-واسود.jpg" class="img-fluid rounded-start " style="width: 479px; height: 300px;" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">Furniture title</h2>
+          <i class="fa-solid fa-calendar-days" > mon , may 25th 2023</i>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><strong class="text-body-secondary">Last updated 3 mins ago</strong></p><br><br>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-podcast"> Podcast</i></button>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-clock"> 36 min</i></button>
+          <button class="btn" style="padding: 5px;font-size: 10px; background-color: darkgrey;"><i class="fa-solid fa-play green"> Play Now</i></button>
+        </div>
+      </div>
+    </div>
+  </div>  <br><br>
+  </div>  <br><br>
+
+  <div class="text-center p-4">
+    <h2 style="font-size: 40px; font-weight: 900; color: rgb(133, 182, 255); text-shadow: 4px 4px 7px black; ">JOIN US</h2>
+  </div>    <br><br>
+
+  <div class="container  card-group row" style="display: flex; margin: auto; ">
+
+      <div class="card  col-lg-4 col-sm-12 box-shadow " style="background-color: rgb(245, 245, 245);" >
+        
+        <div class="card-body">
+          <h4 class="card-title"style=" text-align: center;"> Subscribe Now</h4><br>
+         <a class="card-icon"><img src="images/download (2).png" alt=""></a><br><br><br><br>
+          <h6 class="card-text opacity"style=" text-align: center;">Go To Link</h6>
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12 box-shadow  " style="background-color: rgb(245, 245, 245);">
+        
+        <div class="card-body">
+          <h4 class="card-title"style=" text-align: center;"> Follow</h4><br>
+         <a class="card-icon"> <img src="images/download (1).jpeg" alt=""></a><br><br><br><br>
+          <h6 class="card-text opacity "style=" text-align: center;">Go To Link</h6>
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12 box-shadow " style="background-color: rgb(245, 245, 245);">
+        
+        <div class="card-body ">
+          <h4 class="card-title"style=" text-align: center;"> Like The Page</h4><br>
+         <a class="card-icon"> <img src="images/download (2).jpeg" style="font-family: xx-large;" alt=""></a><br><br><br><br>
+          <h6 class="card-text opacity"style=" text-align: center;">Go To Link</h6>
+        </div>
+      </div>
+      <div class="card col-lg-4 col-sm-12 box-shadow " style="background-color: rgb(245, 245, 245);">
+        
+        <div class="card-body ">
+          <h4 class="card-title"style=" text-align: center;"> Whatch videos</h4><br>
+         <a class="card-icon"><img src="images/download (3).png" alt=""></a><br><br><br><br>
+          <h6 class="card-text opacity"style=" text-align: center;">Go To Link</h6>
+        </div>
+      </div>
+
+
+    </div><br><br>
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+
+<!-- Footer -->
+<footer class=" text-center text-dark" style="background-color:rgb(148, 118, 118)";>
+  <!-- Grid container -->
+  <div class="container p-4">
+
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Images -->
+    <section class="">
+      <div class="row">
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/HvV2Ivc0LRk.jpg "
+              class="w-100 " 
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/030c0dc4-2407-410d-95f6-a82390801fb7.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/480551696080411.yX4MpVErwyUXSjtkx2uS7o9mtsgso2wibO4q4h2M.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/77453-ديكورات-ابيض-واسود.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(250, 250, 250, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/3991.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="images/bathroom-design.jpg"
+              class="w-100"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Images -->
+  </div>
+  <!-- Grid container -->
+
+
+  
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control  text-dark"  style="background-color:rgb(211, 228, 255)"/>
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-success mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 38, 165, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="https://EngALiMohamed.com/">Eng Mohamed Semer.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+</body>
+</html>
